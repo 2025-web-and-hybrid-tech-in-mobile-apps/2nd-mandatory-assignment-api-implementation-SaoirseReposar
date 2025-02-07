@@ -12,7 +12,7 @@ const SECRET_KEY = "secret_key";
 const users = []; // store users data (username and password)
 const highScores = []; // store high scores from games
 
-// user sign up
+// user sign-up
 app.post(
   "/signup",
   [
